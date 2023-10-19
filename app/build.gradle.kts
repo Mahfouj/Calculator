@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.example.calculator"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.calculator"
         minSdk = 24
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -54,5 +54,5 @@ dependencies {
 
     implementation("androidx.activity:activity-ktx:1.7.2")
     implementation("androidx.fragment:fragment-ktx:1.6.1")
-
+    implementation ("net.objecthunter:exp4j:0.4.5")
 }

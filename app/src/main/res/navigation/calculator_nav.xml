@@ -9,5 +9,14 @@
         android:id="@+id/homeFragment"
         android:name="com.example.calculator.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_viewClaculatorFragment"
+            app:destination="@id/viewClaculatorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewClaculatorFragment"
+        android:name="com.example.calculator.ViewClaculatorFragment"
+        android:label="fragment_view_claculator"
+        tools:layout="@layout/fragment_view_claculator" />
 </navigation>

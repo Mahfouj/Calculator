@@ -5,4 +5,7 @@
     <color name="pink">#FF2BEA</color>
     <color name="purple">#58135E</color>
     <color name="lavender">#9598DB</color>
+
+<color name="start">#ad5389</color>
+    <color name="end">#3c1053</color>
 </resources>
